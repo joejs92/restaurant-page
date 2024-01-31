@@ -1,6 +1,6 @@
 import Icon from './krabbs.png';
 
-function component() {
+function contact() {
     const element = document.createElement('div');
     
     const title = document.createElement('h1');
@@ -26,4 +26,4 @@ function component() {
     return element;
   }
   
-document.body.appendChild(component());
+export {contact};

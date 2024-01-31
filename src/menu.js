@@ -1,6 +1,6 @@
 import Icon from './krabbypatty.jpg';
 
-function component() {
+function menu() {
     const element = document.createElement('div');
     
     const title = document.createElement('h1');
@@ -26,4 +26,4 @@ function component() {
     return element;
   }
   
-document.body.appendChild(component());
+export {menu};
